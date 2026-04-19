@@ -2,7 +2,7 @@
   "name": "ts-hkt",
   "version": "0.1.0",
   "description": "A minimal toolkit for higher-kinded types in TypeScript.",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "sideEffects": false,
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -16,6 +16,7 @@
   "files": [
     "dist",
     "docs",
+    "LICENSE",
     "README.md"
   ],
   "scripts": {
