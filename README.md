@@ -43,12 +43,12 @@ One useful way to read `Apply<F, A>` is:
 1. Narrow the input type of `F` to `A`.
 2. Read back the resulting output type.
 
-TypeScript can reason about both decided and undecided
+TypeScript can reason about both "decided" and "undecided"
 types. If the input is concrete, the result can become concrete. If the input
 is still broad, the result stays broad. If a computation cannot decide between
 branches, the result can keep those branches instead of collapsing them.
 
-`Filter` is the clearest example. If its predicate is undecided for some
+`Filter` is the clearest example. If its predicate is "undecided" for some
 element and returns `boolean`, the result becomes a union of the tuples where
 that element is kept and where it is removed. See the advanced `Filter`
 example in [docs/reference.md](docs/reference.md).
