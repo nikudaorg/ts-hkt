@@ -1,8 +1,13 @@
 # ts-hkt
 
+[![npm](https://img.shields.io/npm/v/ts-hkt.svg)](https://www.npmjs.com/package/ts-hkt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 `ts-hkt` is a small type-level toolkit for higher-kinded types in TypeScript.
 It gives you a minimal HKT encoding and a few tuple combinators built on top of
-it. The package is meant for the type system, not for runtime logic.
+it. The package is meant for the type system, not for runtime logic. The actual
+implementation is tiny: about 50 lines of type-level logic, plus docs and
+packaging.
 
 ## Installation
 
