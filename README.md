@@ -12,12 +12,6 @@ it. The package is meant for the type system, not for runtime logic and takes up
 npm install ts-hkt
 ```
 
-Use type-only imports when you can:
-
-```ts
-import type { Apply, HKT, Input } from 'ts-hkt';
-```
-
 ## Core idea
 
 In this package, an HKT is an interface with an input slot and an output slot.
