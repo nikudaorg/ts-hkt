@@ -5,10 +5,7 @@
 
 `ts-hkt` is a small type-level toolkit for higher-kinded types in TypeScript.
 It gives you a minimal HKT encoding and a few tuple combinators built on top of
-it. The package is meant for the type system, not for runtime logic. The actual
-implementation is tiny: about 50 lines of type-level logic, plus docs and
-packaging.
-
+it. The package is meant for the type system, not for runtime logic and takes up about 50 lines of type-level code
 ## Installation
 
 ```bash
