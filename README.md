@@ -1,4 +1,4 @@
-# yet-another-hkt
+# yet-another-hkt ― this time very simple
 
 [![npm](https://img.shields.io/npm/v/yet-another-hkt.svg)](https://www.npmjs.com/package/yet-another-hkt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
