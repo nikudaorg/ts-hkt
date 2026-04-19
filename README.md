@@ -1,15 +1,15 @@
-# ts-hkt
+# yet-another-hkt
 
-[![npm](https://img.shields.io/npm/v/ts-hkt.svg)](https://www.npmjs.com/package/ts-hkt)
+[![npm](https://img.shields.io/npm/v/yet-another-hkt.svg)](https://www.npmjs.com/package/yet-another-hkt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-`ts-hkt` is a small type-level toolkit for higher-kinded types in TypeScript.
+`yet-another-hkt` is a small type-level toolkit for higher-kinded types in TypeScript.
 It gives you a minimal HKT encoding and a few tuple combinators built on top of
 it. The package is meant for the type system, not for runtime logic and takes up about 50 lines of type-level code
 ## Installation
 
 ```bash
-npm install ts-hkt
+npm install yet-another-hkt
 ```
 
 ## Core idea
@@ -18,7 +18,7 @@ In this package, an HKT is an interface with an input slot and an output slot.
 You define the output in terms of `Input<this>`.
 
 ```ts
-import type { Apply, HKT, Input } from 'ts-hkt';
+import type { Apply, HKT, Input } from 'yet-another-hkt';
 
 interface ToStringHKT extends HKT<number | boolean> {
   output: `${Input<this>}`;

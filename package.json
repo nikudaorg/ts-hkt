@@ -1,5 +1,5 @@
 {
-  "name": "ts-hkt",
+  "name": "yet-another-hkt",
   "version": "0.1.0",
   "description": "A minimal toolkit for higher-kinded types in TypeScript.",
   "license": "MIT",
